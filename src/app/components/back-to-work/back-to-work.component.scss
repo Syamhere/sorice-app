@@ -1,0 +1,124 @@
+.back-wrap {
+    padding: 25px 0;
+    .table-tab-title {
+        .nav-link {
+            color: #373737;
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 4px 32px;
+            position: relative;
+            &.active::after {
+                content: "";
+                height: 2px;
+                position: absolute;
+                background: #f48939;
+                display: inline-block;
+                position: absolute;
+                left: 15px;
+                right: 15px;
+                bottom: 0;
+            }
+        }
+    }
+
+    .search-filter.wid-big {
+        width: 100%;
+        max-width: 230px;
+        margin-right: 14px;
+    }
+
+    .input-group {
+        border: 1px solid #c9cfd8;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .status {
+        min-width: 200px;
+        /* border: 1px solid #C9CFD8; */
+        background: #fff;
+        margin-bottom: 15px;
+    }
+
+    .search-filter .input-group > .form-control {
+        height: 39px;
+    }
+
+    .filter-sec .form-control {
+        border: none;
+        background: transparent;
+    }
+
+    .status .btn {
+        border: none;
+        align-items: center;
+        float: left;
+        justify-content: space-between;
+        padding: 2px 7px;
+        display: flex;
+        min-width: 100px;
+        background: transparent;
+        flex: 1 1 auto;
+        box-shadow: none;
+    }
+
+    .status .input-group .status-h {
+        padding: 9px 20px;
+        border-right: 1px solid #e6eaee;
+        float: left;
+        /* min-width: 50%;
+             */
+    }
+
+    .status .btn .fa,
+    .status-store .btn .fa {
+        color: #707070;
+        font-size: 18px;
+        margin-left: auto;
+    }
+
+    .status .status-p {
+        font-size: 13px;
+        padding: 0px 10px 0 20px;
+        color: #5b6870;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin: 0;
+    }
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .upld-btn {
+        margin-left: 52px;
+        background: none;
+        border-color: #262261;
+        color: #262261 !important;
+        padding: 8px 15px;
+    }
+    .employee-table {
+        label {
+            margin: 0;
+        }
+    }
+
+    .filter-sec.d-flex {
+        margin-bottom: 15px;
+    }
+
+    .badge {
+        font-size: 13px;
+        padding: 5px 10px;
+        font-weight: normal;
+        border-radius: 22px;
+    }
+    .empty-tab {
+        display: flex;
+        justify-content: center;
+        padding: 50px 25px;
+        img {
+            max-width: 100%;
+        }
+    }
+}
